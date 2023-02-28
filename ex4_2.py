@@ -3,7 +3,7 @@ print("<Exercício 4 (2)>")
 # programa deve conter variáveis para guardar RA, notas N1 e N2, e média. Deve
 # ser capaz de realizar a leitura desses valores via teclado e, após isso, você deve
 # fazer as conversões necessárias dos tipos de dados. Imprima os valores finais no
-# console.
+# console.w
 
 ra = input("Insira RA: ")
 n1 = input("Insira Nota 1: ")
