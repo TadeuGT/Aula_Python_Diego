@@ -1,4 +1,4 @@
-from math import sin, cos, tan
+from math import sin, cos, tan, radians
 
 print("<Exercício 3>")
 # Faça um programa que leia um ângulo qualquer e mostre na tela o valor do seno,
@@ -8,7 +8,8 @@ print("<Exercício 3>")
 # oficial).
 
 angulo = float(input("Insira o ângulo: "))
+anguloRad = radians(angulo)
 
-print("Valor do seno:", sin(angulo))
-print("Valor do cosseno", cos(angulo))
-print("Valor da tangente", tan(angulo))
+print("Valor do seno:", sin(anguloRad))
+print("Valor do cosseno", cos(anguloRad))
+print("Valor da tangente", tan(anguloRad))
